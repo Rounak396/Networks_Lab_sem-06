@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rounaksarkar/Downloads/deskTop/Academics/Semester-06/Labs/Computer Networks/CN Lab/Day-5/output/ftpc'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _parseFileName, symObjAddr: 0x0, symBinAddr: 0x100003194, symSize: 0x3C }
+  - { offsetInCU: 0x94, offset: 0x94, size: 0x8, addend: 0x0, symName: _parseFileName, symObjAddr: 0x0, symBinAddr: 0x100003194, symSize: 0x3C }
+  - { offsetInCU: 0xD4, offset: 0xD4, size: 0x8, addend: 0x0, symName: _getClientDataSocket, symObjAddr: 0x3C, symBinAddr: 0x1000031D0, symSize: 0x124 }
+  - { offsetInCU: 0x10A, offset: 0x10A, size: 0x8, addend: 0x0, symName: _checkStatusCode, symObjAddr: 0x160, symBinAddr: 0x1000032F4, symSize: 0xFC }
+  - { offsetInCU: 0x14A, offset: 0x14A, size: 0x8, addend: 0x0, symName: _getFile, symObjAddr: 0x25C, symBinAddr: 0x1000033F0, symSize: 0x1C0 }
+  - { offsetInCU: 0x219, offset: 0x219, size: 0x8, addend: 0x0, symName: __OSSwapInt16, symObjAddr: 0x41C, symBinAddr: 0x1000035B0, symSize: 0x24 }
+  - { offsetInCU: 0x241, offset: 0x241, size: 0x8, addend: 0x0, symName: _sendFile, symObjAddr: 0x440, symBinAddr: 0x1000035D4, symSize: 0x1D0 }
+  - { offsetInCU: 0x2F2, offset: 0x2F2, size: 0x8, addend: 0x0, symName: _handleClientConnection, symObjAddr: 0x610, symBinAddr: 0x1000037A4, symSize: 0x31C }
+  - { offsetInCU: 0x37F, offset: 0x37F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x93C, symBinAddr: 0x100003AD0, symSize: 0xF4 }
+...

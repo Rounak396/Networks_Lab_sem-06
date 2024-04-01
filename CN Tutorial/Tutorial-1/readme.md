@@ -6,7 +6,6 @@ Sockets are low level endpoint used for processing information across a network.
 Client Socket Workflow
 socket() | connect() | recv()
 The client socket is created with a socket() call, and the connected to a remote address with the connect() call, and then finally can retrive data with recv() call.
-The client socket is created with a socket() call, and the connected to a remote address with the connect() call, and then finally can retrive data with recv() call.
 
 
 

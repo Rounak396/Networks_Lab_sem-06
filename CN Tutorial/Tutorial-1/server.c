@@ -24,10 +24,17 @@ int main(){
     // bind() takes 3 parameters:
     // 1. The socket file descriptor, 2. The address of the server, 3. The size of the server address.
 
-    listen(server_socket, 5);
+    int status = listen(server_socket, 5);
     // listen() function is used to listen for incoming connections.
+    // listen() returns 0 if the operation is successful, i.e. if the server is listening, -1 otherwise.
     // listen() takes 2 parameters:
-    // 1. The socket file descriptor, 2. The maximum number of connections that can be queued.
+    // 1. The socket file descriptor, 2. The maximum number of connections that can be queued (queueLen).
+    // queueLen is the maximum number of connections that can be waiting while the process is handling a particular connection.
+    if (status == 0){
+        printf("Listening for incoming connections...\n");
+    } else {
+        printf("Error occurred while listening for incoming connections\n");
+    }
 
     int client_socket = accept(server_socket, NULL, NULL);
     // accept() function is used to accept the incoming connection.
